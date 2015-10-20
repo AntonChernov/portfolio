@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Фото</title>
+</head>
+<body>
+{%for im in images %}
+    <img src="{{im.image}}">
+    <p>{{im.image_name}}</p>
+{%endfor%}
+</body>
+</html>
